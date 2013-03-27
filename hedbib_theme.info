@@ -1,4 +1,4 @@
-name = 'hedbib-theme'
+name = 'hedbib_theme'
 description = ''
 core = '7.x'
 engine = 'phptemplate'

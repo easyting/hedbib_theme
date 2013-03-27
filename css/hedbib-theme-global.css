@@ -52,7 +52,9 @@ h2 {
 .pane-ding-library-opening-hours-ding-library-opening-hours .day-name,
 .pane-opening-hours-week .name,
 .pane-aggregator-feed li a,
-.opening-hours-week .header {
+.opening-hours-week .header,
+.responsive-layout-mobile #block-menu-menu-secondary-menu .menu li a,
+.responsive-layout-mobile #block-locale-language ul.language-switcher-locale-url li a {
   color: #fff;
   text-shadow: none;
 }
@@ -121,7 +123,9 @@ a:hover,
 .edit-user-profile label .form-required,
 .edit-user-profile .form-submit,
 .ui-widget .form-submit,
-.page-user-login .region-content-inner .form-submit {
+.page-user-login .region-content-inner .form-submit,
+.page-taxonomy-term .pane-taxonomy-term .pane-title,
+.page-taxonomy-term .node-title a {
   color: #f8981e; /* Orange color */
 }
 
@@ -175,7 +179,11 @@ a:hover,
 .pane-reservations .op-reservations,
 .pane-bookmarks .form-actions,
 .pane-loans .renew-loan-button,
-.pane-page-tabs ul.primary li:hover a {
+.pane-page-tabs ul.primary li:hover a,
+.responsive-layout-mobile .block-main-menu > div > .content > ul,
+.responsive-layout-mobile .sidebar-menu-expand,
+.responsive-layout-mobile .search-results-tabs ul.primary li a,
+.responsive-layout-mobile .search-results-tabs ul.primary li a:hover {
   background-color: #1f3245; /* Dark blue color */
 }
 
@@ -183,7 +191,10 @@ a:hover,
 .block-user-login .block-inner .content,
 .block-ding-user-frontend-ding-username,
 .block-system-user-menu,
-.block-ding-user-frontend-ding-user-loan-number {
+.block-ding-user-frontend-ding-user-loan-number,
+.secondary-menu-expand,
+.user-menu-expand,
+.responsive-layout-mobile .region-header-second-inner {
   background-color: #6bafdb; /* Blue color */
 }
 
@@ -203,7 +214,37 @@ a:hover,
 .page-ting-collection .field-type-ting-subjects .subject:hover,
 .pane-ting-object-voxb-tags .tag a:hover,
 .secondary-tabs ul.secondary a.active,
-.pane-page-tabs ul.primary li.active a {
+.pane-page-tabs ul.primary li.active a,
+.page-ting.responsive-layout-mobile .field-type-ding-entity-buttons .ding-entity-button a,
+.page-ting-collection.responsive-layout-mobile .field-type-ding-entity-buttons .reservation-link-ajax a,
+.page-ting-object.responsive-layout-mobile .field-type-ding-entity-buttons input,
+.responsive-layout-mobile .field-type-ding-entity-buttons .form-actions input,
+.responsive-layout-mobile .field-type-ding-entity-buttons .reservation-link-ajax a, 
+.responsive-layout-mobile .field-type-ding-entity-buttons .bookmark-link-ajax a,
+.responsive-layout-mobile .field-type-ding-entity-buttons .ding-entity-button a,
+.page-ting.responsive-layout-mobile .sfx-link a,
+.page-search.responsive-layout-mobile .sfx-link a,
+.page-taxonomy-term.responsive-layout-mobile .node-links ul li a,
+.page-taxonomy-term.responsive-layout-mobile .comment-links ul li a,
+.page-taxonomy-term.responsive-layout-mobile .view-taxonomy-term .item-list .pager a,
+.page-search-node.responsive-layout-mobile .pane-ding-node-search .item-list .pager a,
+.page-taxonomy-term.responsive-layout-mobile .view-taxonomy-term .item-list .pager-current,
+.page-search-ting.responsive-layout-mobile .pane-ting-search-records-per-page a,
+.responsive-layout-mobile .secondary-tabs ul.secondary li a,
+.responsive-layout-mobile .pane-loans .operations .renew-loan-button input,
+.responsive-layout-mobile .edit-user-profile .form-submit,
+.responsive-layout-mobile .pane-bookmarks .ding-entity-button a,
+.page-search-ting.responsive-layout-mobile .item-list .pager a,
+.page-search-ting.responsive-layout-mobile .item-list .pager-current,
+.page-taxonomy-termv .view-taxonomy-term .item-list .pager-current,
+.page-search-node.responsive-layout-mobile .pane-ding-node-search .item-list .pager-current,
+.page-search-meta.responsive-layout-mobile .mkdru-pager a,
+.page-search-meta.responsive-layout-mobile .mkdru-pager span,
+.responsive-layout-mobile .ding_nodelist-slider .item .more a,
+.responsive-layout-mobile .reservation-link-ajax a:link,
+.responsive-layout-mobile .reservation-link-ajax a:visited,
+.responsive-layout-mobile .ding_nodelist-single .ding_nodelist-items .more a,
+.responsive-layout-mobile .ding_nodelist-carousel .ding_nodelist-items .more a {
   background-color: #8cc63f; /* Green color */
 }
 
@@ -382,6 +423,47 @@ footer .region-footer-second,
   background-image: url('../img/vert-slider-sprite.png');
 }
 
+.pane-ding-toggle-format-toggle .pane-content a {
+  background-image: url('../img/grid-icons.png');
+}
+
+.pane-ding-facetbrowser label a,
+.page-ting-object .relations .fieldset-title,
+.page-ting-object .expanded .expand-relations,
+.page-ting-object .expanded-properties,
+.pane-ting-object-ting-relations .ting-relation .expanded,
+.pane-node-comments .expanded-comment-arrow,
+.page-search-meta .pane-ding-facetbrowser .option,
+.page-ting-object .group-content .field-group-format-title {
+  background-image: url('../img/checkbox-sprite.png');
+}
+
+.search-results-tabs ul.primary li.active {
+  background-image: url('../img/tab-bottom-arrow.png');
+}
+
+.secondary-menu-expand {
+  background-image: url('../img/secondary-menu-icon.png');
+}
+
+.user-menu-expand {
+  background-image: url('../img/user-icon.png');
+}
+
+.responsive-layout-mobile .pane-ding-toggle-format-toggle .pane-content a {
+  background-image: url('../img/toggle-icon-mobile.png');
+}
+
+.responsive-layout-mobile .ding_nodelist-carousel .pagination .selected,
+.responsive-layout-mobile .ding_nodelist-carousel .next-prev .prev,
+.responsive-layout-mobile .ding_nodelist-carousel .next-prev .next,
+.responsive-layout-mobile .ding_nodelist-horizontal_accordion .ding_nodelist-items .expand a,
+.responsive-layout-mobile .ting-search-carousel .rs-carousel-action-next,
+.responsive-layout-mobile .ting-search-carousel .rs-carousel-action-prev,
+.responsive-layout-mobile .browsebar-inner .more-info {
+  background-image: url('../img/arrows-sprite-mobile.png');
+}
+
 /* BG position */
 .ding_nodelist-carousel .next-prev .prev,
 .pane-opening-hours-week .prev {
@@ -448,4 +530,54 @@ ul.ui-autocomplete {
 #block-menu-menu-secondary-menu .menu li,
 #block-locale-language ul.language-switcher-locale-url li {
   text-transform: inherit;
+}
+
+/* Mobile styles */
+.responsive-layout-mobile .zone-menu-wrapper {
+  margin-top: 10px;
+}
+
+.secondary-menu-expand {
+  margin-top: 1px;
+  right: 35px;
+}
+
+.responsive-layout-mobile .region-header-second-inner {
+  right: 35px;
+}
+
+.user-menu-expand {
+  right: -10px;
+  top: 10px;
+}
+
+.responsive-layout-mobile .block-ding-user-frontend-ding-username,
+.responsive-layout-mobile .block-user-login {
+  right: -10px;
+  top: 45px;
+}
+
+.responsive-layout-mobile .block-system-user-menu.even,
+.responsive-layout-mobile .block-ding-user-frontend-ding-user-loan-number {
+  right: -10px;
+  top: 95px;
+}
+
+.responsive-layout-mobile .block-system-user-menu {
+  right: -10px;
+  top: 177px;
+}
+
+.responsive-layout-mobile.page-libraries .pane-ding-library,
+.responsive-layout-mobile.node-type-ding-library .pane-ding-event,
+.responsive-layout-mobile.node-type-ding-library .pane-ding-news {
+  padding-left: 0;
+}
+
+.responsive-layout-mobile h1#page-title {
+  display: none;
+}
+
+.responsive-layout-mobile .region-branding {
+  margin-top: 0;
 }
