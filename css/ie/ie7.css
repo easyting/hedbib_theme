@@ -1,0 +1,24 @@
+.block-user-login input[type=text],
+.block-user-login input[type=password] {
+  width: 175px;
+}
+
+.block-user-login .block-title {
+  height: 60px;
+}
+
+.block-search-form form .ui-autocomplete-input {
+  width: 582px;
+}
+
+.block-search-form {
+  height: 56px;
+}
+
+.block-search-form form .form-actions input {
+  right: -66px;
+}
+
+.breadcrumb span {
+  float: left;
+}
