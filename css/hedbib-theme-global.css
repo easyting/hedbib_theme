@@ -54,7 +54,9 @@ h2 {
 .pane-aggregator-feed li a,
 .opening-hours-week .header,
 .responsive-layout-mobile #block-menu-menu-secondary-menu .menu li a,
-.responsive-layout-mobile #block-locale-language ul.language-switcher-locale-url li a {
+.responsive-layout-mobile #block-locale-language ul.language-switcher-locale-url li a,
+.no-js .block-search-form form .extendsearch-advanced .fieldset-wrapper label,
+.no-js .block-search-form label.element-invisible {
   color: #fff;
   text-shadow: none;
 }
@@ -194,8 +196,13 @@ a:hover,
 .block-ding-user-frontend-ding-user-loan-number,
 .secondary-menu-expand,
 .user-menu-expand,
-.responsive-layout-mobile .region-header-second-inner {
+.responsive-layout-mobile .region-header-second-inner,
+.no-js .block-ding-user-frontend-ding-username .block-inner > .content {
   background-color: #6bafdb; /* Blue color */
+}
+
+.no-js .block-search-form form .form-item input[type="text"] {
+  background-color: #fff;
 }
 
 .block-search-form,
