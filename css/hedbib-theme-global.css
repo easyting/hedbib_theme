@@ -140,7 +140,9 @@ a:hover,
 .ui-widget .form-submit,
 .page-user-login .region-content-inner .form-submit,
 .page-taxonomy-term .pane-taxonomy-term .pane-title,
-.page-taxonomy-term .node-title a {
+.page-taxonomy-term .node-title a,
+.page-taxonomy-term .pane-taxonomy-term .term-title,
+.ding_nodelist-taxonomy h2.ding_nodelist-title {
   color: #f8981e; /* Orange color */
 }
 
@@ -600,4 +602,8 @@ ul.ui-autocomplete {
 
 .responsive-layout-mobile .region-branding {
   margin-top: 0;
+}
+
+.view-taxonomy-term .alphabase-pager {
+  bottom: 34px;
 }
