@@ -1,0 +1,25 @@
+#region-header-second {
+  margin-top: 45px;
+}
+
+.region-user-second {
+  margin-top: 1px;
+}
+
+#block-menu-menu-secondary-menu .menu li a,
+#block-locale-language ul.language-switcher-locale-url li a {
+  color: #f8981e;
+}
+
+.block-ding-user-frontend-ding-username h2,
+.block-user-login .block-title {
+  height: 59px;
+}
+
+.block-main-menu .content ul li ul {
+  background-color: #f8f8f5;
+}
+
+.zone-menu-wrapper {
+  margin-top: 14px;
+}
