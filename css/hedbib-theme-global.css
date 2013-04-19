@@ -16,13 +16,6 @@ h2 {
 }
 
 /* :focus elements */
-a:focus,
-button:focus,
-textarea:focus,
-select:focus,
-input:focus {
-  outline: 1px dashed #1f3245;
-}
 
 .logo-img a {
   display: block;
@@ -142,7 +135,9 @@ a:hover,
 .page-taxonomy-term .pane-taxonomy-term .pane-title,
 .page-taxonomy-term .node-title a,
 .page-taxonomy-term .pane-taxonomy-term .term-title,
-.ding_nodelist-taxonomy h2.ding_nodelist-title {
+.ding_nodelist-taxonomy h2.ding_nodelist-title,
+.pane-ting-object-ting-reference-reverse .node-title a,
+.pane-ting-object-voxb-tags form .form-submit {
   color: #f8981e; /* Orange color */
 }
 
@@ -286,7 +281,8 @@ a:hover,
 }
 
 ul.ui-autocomplete,
-.ui-dialog {
+.ui-dialog ,
+.pane-ting-object-voxb-tags form .form-text {
   background-color: #e2ddd1;
 }
 
@@ -305,8 +301,7 @@ footer .region {
 .pane-ding-library-opening-hours-ding-library-opened-today,
 .pane-ding-library-opening-hours-ding-library-opening-hours,
 .pane-opening-hours-week,
-.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings h2,
-.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings table {
+.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings .holdings {
   background-color: #fb9900;
 }
 
