@@ -137,7 +137,8 @@ a:hover,
 .page-taxonomy-term .pane-taxonomy-term .term-title,
 .ding_nodelist-taxonomy h2.ding_nodelist-title,
 .pane-ting-object-ting-reference-reverse .node-title a,
-.pane-ting-object-voxb-tags form .form-submit {
+.pane-ting-object-voxb-tags form .form-submit,
+.pane-emailkanon-emailkanon-subscribe-block .form-submit {
   color: #f8981e; /* Orange color */
 }
 
@@ -261,7 +262,8 @@ a:hover,
 .responsive-layout-mobile .reservation-link-ajax a:link,
 .responsive-layout-mobile .reservation-link-ajax a:visited,
 .responsive-layout-mobile .ding_nodelist-single .ding_nodelist-items .more a,
-.responsive-layout-mobile .ding_nodelist-carousel .ding_nodelist-items .more a {
+.responsive-layout-mobile .ding_nodelist-carousel .ding_nodelist-items .more a,
+.responsive-layout-mobile .pane-emailkanon-emailkanon-subscribe-block .form-submit {
   background-color: #8cc63f; /* Green color */
 }
 
