@@ -16,13 +16,6 @@ h2 {
 }
 
 /* :focus elements */
-a:focus,
-button:focus,
-textarea:focus,
-select:focus,
-input:focus {
-  outline: 1px dashed #1f3245;
-}
 
 .logo-img a {
   display: block;
@@ -142,7 +135,10 @@ a:hover,
 .page-taxonomy-term .pane-taxonomy-term .pane-title,
 .page-taxonomy-term .node-title a,
 .page-taxonomy-term .pane-taxonomy-term .term-title,
-.ding_nodelist-taxonomy h2.ding_nodelist-title {
+.ding_nodelist-taxonomy h2.ding_nodelist-title,
+.pane-ting-object-ting-reference-reverse .node-title a,
+.pane-ting-object-voxb-tags form .form-submit,
+.pane-emailkanon-emailkanon-subscribe-block .form-submit {
   color: #f8981e; /* Orange color */
 }
 
@@ -266,7 +262,8 @@ a:hover,
 .responsive-layout-mobile .reservation-link-ajax a:link,
 .responsive-layout-mobile .reservation-link-ajax a:visited,
 .responsive-layout-mobile .ding_nodelist-single .ding_nodelist-items .more a,
-.responsive-layout-mobile .ding_nodelist-carousel .ding_nodelist-items .more a {
+.responsive-layout-mobile .ding_nodelist-carousel .ding_nodelist-items .more a,
+.responsive-layout-mobile .pane-emailkanon-emailkanon-subscribe-block .form-submit {
   background-color: #8cc63f; /* Green color */
 }
 
@@ -281,12 +278,14 @@ a:hover,
 .block-search-form form .extendsearch-advanced input[type="text"],
 .block-search-form form .extendsearch-advanced .form-item input:active,
 .block-search-form form .extendsearch-advanced .form-item input:focus,
-.block-main-menu .content ul li ul {
+.block-main-menu .content ul li ul,
+.block-search-form form input[name="search_block_form"] {
   background-color: #f8f8f5; /* Light grey color */
 }
 
 ul.ui-autocomplete,
-.ui-dialog {
+.ui-dialog,
+.pane-ting-object-voxb-tags form .form-text {
   background-color: #e2ddd1;
 }
 
@@ -305,8 +304,7 @@ footer .region {
 .pane-ding-library-opening-hours-ding-library-opened-today,
 .pane-ding-library-opening-hours-ding-library-opening-hours,
 .pane-opening-hours-week,
-.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings h2,
-.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings table {
+.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings .holdings {
   background-color: #fb9900;
 }
 
@@ -324,6 +322,8 @@ footer .region {
 .block-search-form form .ui-autocomplete-input:focus,
 .block-search-form form .extendsearch-advanced .form-item input:active,
 .block-search-form form .extendsearch-advanced .form-item input:focus,
+.block-search-form form input[name="search_block_form"]:focus,
+.block-search-form form input[name="search_block_form"]:active,
 .ui-widget input:focus {
   border-color: #a19f9a;
 }
