@@ -237,7 +237,7 @@ a:hover,
 .page-ting-collection.responsive-layout-mobile .field-type-ding-entity-buttons .reservation-link-ajax a,
 .page-ting-object.responsive-layout-mobile .field-type-ding-entity-buttons input,
 .responsive-layout-mobile .field-type-ding-entity-buttons .form-actions input,
-.responsive-layout-mobile .field-type-ding-entity-buttons .reservation-link-ajax a, 
+.responsive-layout-mobile .field-type-ding-entity-buttons .reservation-link-ajax a,
 .responsive-layout-mobile .field-type-ding-entity-buttons .bookmark-link-ajax a,
 .responsive-layout-mobile .field-type-ding-entity-buttons .ding-entity-button a,
 .page-ting.responsive-layout-mobile .sfx-link a,
@@ -427,7 +427,7 @@ footer .region-footer-second,
   background-image: url('../img/active-menu-arrow.png');
 }
 
-.ding_nodelist-carousel .pagination .selected, 
+.ding_nodelist-carousel .pagination .selected,
 .ding_nodelist-carousel .next-prev .prev,
 .ding_nodelist-carousel .next-prev .next,
 .ding_nodelist-horizontal_accordion .ding_nodelist-items .expand a,
@@ -606,4 +606,9 @@ ul.ui-autocomplete {
 
 .view-taxonomy-term .alphabase-pager {
   bottom: 34px;
+}
+
+.responsive-layout-mobile .ding_nodelist-slider .next,
+.responsive-layout-mobile .ding_nodelist-slider .prev {
+  background-image: url(../img/vert-slider-sprite-mobile.png);
 }
