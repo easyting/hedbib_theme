@@ -487,16 +487,6 @@ footer .region-footer-second,
 }
 
 /* BG position */
-.ding_nodelist-carousel .next-prev .prev,
-.pane-opening-hours-week .prev {
-  background-position: -60px 0;
-}
-
-.ding_nodelist-carousel .next-prev .next,
-.pane-opening-hours-week .next {
-  background-position: -90px 0;
-}
-
 .more-info {
   background-position: -150px 0;
 }
