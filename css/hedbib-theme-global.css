@@ -549,11 +549,12 @@ ul.ui-autocomplete {
 }
 
 .secondary-menu-expand {
-  margin-top: 1px;
+  top: 80px;
   right: 35px;
 }
 
 .responsive-layout-mobile .region-header-second-inner {
+  top: 115px;
   right: 35px;
 }
 
