@@ -246,7 +246,6 @@ a:hover,
 .page-taxonomy-term.responsive-layout-mobile .view-taxonomy-term .item-list .pager a,
 .page-search-node.responsive-layout-mobile .pane-ding-node-search .item-list .pager a,
 .page-taxonomy-term.responsive-layout-mobile .view-taxonomy-term .item-list .pager-current,
-.page-search-ting.responsive-layout-mobile .pane-ting-search-records-per-page a,
 .responsive-layout-mobile .secondary-tabs ul.secondary li a,
 .responsive-layout-mobile .pane-loans .operations .renew-loan-button input,
 .responsive-layout-mobile .edit-user-profile .form-submit,
@@ -262,7 +261,8 @@ a:hover,
 .responsive-layout-mobile .reservation-link-ajax a:visited,
 .responsive-layout-mobile .ding_nodelist-single .ding_nodelist-items .more a,
 .responsive-layout-mobile .ding_nodelist-carousel .ding_nodelist-items .more a,
-.responsive-layout-mobile .pane-emailkanon-emailkanon-subscribe-block .form-submit {
+.responsive-layout-mobile .pane-emailkanon-emailkanon-subscribe-block .form-submit,
+.page-search-ting.responsive-layout-mobile .pane-ting-search-records-per-page .pane-content a {
   background-color: #8cc63f; /* Green color */
 }
 
@@ -391,10 +391,12 @@ footer .region,
 .pane-ting-object-ting-relations .ting-relation,
 .pane-ting-object-ting-infomedia,
 .pane-ting-object-ting-sfx,
+.pane-ting-object-ting-reference-reverse,
 .pane-recommendation-list,
 .page-search-node .views-row,
 .page-search-node .pane-ding-node-search .item-list .pager,
 .pane-user-profile,
+.page-taxonomy-term .pane-term-description,
 .pane-reservations tr,
 .pane-loans tr,
 .pane-debts tr,
@@ -402,6 +404,12 @@ footer .region,
   -webkit-box-shadow: 0px 0px 9px rgba(150,148,136,1);
   -moz-box-shadow: 0px 0px 9px rgba(150,148,136,1);
   box-shadow: 0px 0px 9px rgba(150,148,136,1);
+}
+
+.landing-page-layout .panel-panel.grid-4 .inside {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 
 footer .region-footer-second,
