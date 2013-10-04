@@ -137,7 +137,11 @@ a:hover,
 .ding_nodelist-taxonomy h2.ding_nodelist-title,
 .pane-ting-object-ting-reference-reverse .node-title a,
 .pane-ting-object-voxb-tags form .form-submit,
-.pane-emailkanon-emailkanon-subscribe-block .form-submit {
+.pane-emailkanon-emailkanon-subscribe-block .form-submit,
+.ding-periodical-fold,
+.ding-periodical-fold:hover,
+.pane-ding-facetbrowser a.unselect,
+.pane-ding-facetbrowser a.expand {
   color: #f8981e; /* Orange color */
 }
 
@@ -422,6 +426,10 @@ footer .region-footer-second,
 }
 
 /* BG images */
+.ding-periodical-foldable:hover {
+  background-image: url(../img/arrow-right.png);
+}
+
 .section-header {
   background: url('../img/header-bg.png') repeat-x 0 0;
 }
