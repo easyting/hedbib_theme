@@ -618,3 +618,12 @@ ul.ui-autocomplete {
 .responsive-layout-mobile .ding_nodelist-slider .prev {
   background-image: url(../img/vert-slider-sprite-mobile.png);
 }
+
+.ding-periodical-foldable.expanded-periodicals-parent:hover {
+  background-image: url(../img/arrow-down.png);
+}
+
+.ding-periodical-foldable .item-list li:hover {
+  color: #f8981e;
+  background-image: url(../img/more-button.png);
+}
