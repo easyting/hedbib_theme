@@ -1,7 +1,6 @@
 body {
   background: #e2ddd1;
   font-family: 'Soho Gothic W01 Regular', Helvetica, Arial, sans-serif;
-  font-size: 10px;
   line-height: 15px;
 }
 
@@ -138,7 +137,11 @@ a:hover,
 .ding_nodelist-taxonomy h2.ding_nodelist-title,
 .pane-ting-object-ting-reference-reverse .node-title a,
 .pane-ting-object-voxb-tags form .form-submit,
-.pane-emailkanon-emailkanon-subscribe-block .form-submit {
+.pane-emailkanon-emailkanon-subscribe-block .form-submit,
+.ding-periodical-fold,
+.ding-periodical-fold:hover,
+.pane-ding-facetbrowser a.unselect,
+.pane-ding-facetbrowser a.expand {
   color: #f8981e; /* Orange color */
 }
 
@@ -168,7 +171,7 @@ a:hover,
 .pane-system-main-menu ul li a,
 .pane-category-menu ul li a,
 .pane-ding-library-ding-sidebar-menu ul li a,
-.node-type-ding-event .event-short-info .views-field-field-event-date,
+.node-type-ding-event .event-short-info .views-field-field-event-date .field-content,
 .node-type-ding-event .event-short-info .views-field-field-event-fee,
 .node-type-ding-event .content-event-day .pane-title,
 .node-type-ding-event .event-short-info .views-field-field-category a,
@@ -237,7 +240,7 @@ a:hover,
 .page-ting-collection.responsive-layout-mobile .field-type-ding-entity-buttons .reservation-link-ajax a,
 .page-ting-object.responsive-layout-mobile .field-type-ding-entity-buttons input,
 .responsive-layout-mobile .field-type-ding-entity-buttons .form-actions input,
-.responsive-layout-mobile .field-type-ding-entity-buttons .reservation-link-ajax a, 
+.responsive-layout-mobile .field-type-ding-entity-buttons .reservation-link-ajax a,
 .responsive-layout-mobile .field-type-ding-entity-buttons .bookmark-link-ajax a,
 .responsive-layout-mobile .field-type-ding-entity-buttons .ding-entity-button a,
 .page-ting.responsive-layout-mobile .sfx-link a,
@@ -247,7 +250,6 @@ a:hover,
 .page-taxonomy-term.responsive-layout-mobile .view-taxonomy-term .item-list .pager a,
 .page-search-node.responsive-layout-mobile .pane-ding-node-search .item-list .pager a,
 .page-taxonomy-term.responsive-layout-mobile .view-taxonomy-term .item-list .pager-current,
-.page-search-ting.responsive-layout-mobile .pane-ting-search-records-per-page a,
 .responsive-layout-mobile .secondary-tabs ul.secondary li a,
 .responsive-layout-mobile .pane-loans .operations .renew-loan-button input,
 .responsive-layout-mobile .edit-user-profile .form-submit,
@@ -263,7 +265,8 @@ a:hover,
 .responsive-layout-mobile .reservation-link-ajax a:visited,
 .responsive-layout-mobile .ding_nodelist-single .ding_nodelist-items .more a,
 .responsive-layout-mobile .ding_nodelist-carousel .ding_nodelist-items .more a,
-.responsive-layout-mobile .pane-emailkanon-emailkanon-subscribe-block .form-submit {
+.responsive-layout-mobile .pane-emailkanon-emailkanon-subscribe-block .form-submit,
+.page-search-ting.responsive-layout-mobile .pane-ting-search-records-per-page .pane-content a {
   background-color: #8cc63f; /* Green color */
 }
 
@@ -392,10 +395,12 @@ footer .region,
 .pane-ting-object-ting-relations .ting-relation,
 .pane-ting-object-ting-infomedia,
 .pane-ting-object-ting-sfx,
+.pane-ting-object-ting-reference-reverse,
 .pane-recommendation-list,
 .page-search-node .views-row,
 .page-search-node .pane-ding-node-search .item-list .pager,
 .pane-user-profile,
+.page-taxonomy-term .pane-term-description,
 .pane-reservations tr,
 .pane-loans tr,
 .pane-debts tr,
@@ -403,6 +408,12 @@ footer .region,
   -webkit-box-shadow: 0px 0px 9px rgba(150,148,136,1);
   -moz-box-shadow: 0px 0px 9px rgba(150,148,136,1);
   box-shadow: 0px 0px 9px rgba(150,148,136,1);
+}
+
+.landing-page-layout .panel-panel.grid-4 .inside {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 
 footer .region-footer-second,
@@ -415,6 +426,10 @@ footer .region-footer-second,
 }
 
 /* BG images */
+.ding-periodical-foldable:hover {
+  background-image: url(../img/arrow-right.png);
+}
+
 .section-header {
   background: url('../img/header-bg.png') repeat-x 0 0;
 }
@@ -427,7 +442,7 @@ footer .region-footer-second,
   background-image: url('../img/active-menu-arrow.png');
 }
 
-.ding_nodelist-carousel .pagination .selected, 
+.ding_nodelist-carousel .pagination .selected,
 .ding_nodelist-carousel .next-prev .prev,
 .ding_nodelist-carousel .next-prev .next,
 .ding_nodelist-horizontal_accordion .ding_nodelist-items .expand a,
@@ -487,16 +502,6 @@ footer .region-footer-second,
 }
 
 /* BG position */
-.ding_nodelist-carousel .next-prev .prev,
-.pane-opening-hours-week .prev {
-  background-position: -60px 0;
-}
-
-.ding_nodelist-carousel .next-prev .next,
-.pane-opening-hours-week .next {
-  background-position: -90px 0;
-}
-
 .more-info {
   background-position: -150px 0;
 }
@@ -560,11 +565,12 @@ ul.ui-autocomplete {
 }
 
 .secondary-menu-expand {
-  margin-top: 1px;
+  top: 80px;
   right: 35px;
 }
 
 .responsive-layout-mobile .region-header-second-inner {
+  top: 115px;
   right: 35px;
 }
 
@@ -606,4 +612,18 @@ ul.ui-autocomplete {
 
 .view-taxonomy-term .alphabase-pager {
   bottom: 34px;
+}
+
+.responsive-layout-mobile .ding_nodelist-slider .next,
+.responsive-layout-mobile .ding_nodelist-slider .prev {
+  background-image: url(../img/vert-slider-sprite-mobile.png);
+}
+
+.ding-periodical-foldable.expanded-periodicals-parent:hover {
+  background-image: url(../img/arrow-down.png);
+}
+
+.ding-periodical-foldable .item-list li:hover {
+  color: #f8981e;
+  background-image: url(../img/more-button.png);
 }
