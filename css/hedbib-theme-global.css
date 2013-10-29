@@ -66,6 +66,7 @@ h2 {
   text-shadow: none;
 }
 
+.page-user .user-page-tabs ul.primary > li.active a + ul a,
 .block-system-user-menu ul li a:link,
 .block-system-user-menu ul li a:hover,
 .block-system-user-menu ul li a:visited,
@@ -152,6 +153,7 @@ a:hover,
 }
 
 /* BG colors */
+.page-user .user-page-tabs ul.primary > li > a,
 .zone-menu-wrapper,
 .block-main-menu > div > .content,
 .block-ding-library-library-address,
@@ -219,6 +221,7 @@ a:hover,
   background-color: #fff;
 }
 
+.page-user .user-page-tabs ul.primary > li.active > a,
 .block-search-form,
 .block-search-form form .extendsearch-advanced .fieldset-wrapper,
 .ui-tabs-nav li.active,
