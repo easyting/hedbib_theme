@@ -201,7 +201,9 @@ a:hover,
 .responsive-layout-mobile .block-main-menu > div > .content > ul,
 .responsive-layout-mobile .sidebar-menu-expand,
 .responsive-layout-mobile .search-results-tabs ul.primary li a,
-.responsive-layout-mobile .search-results-tabs ul.primary li a:hover {
+.responsive-layout-mobile .search-results-tabs ul.primary li a:hover,
+.node-type-ding-event .event-short-info .views-field-group-audience .field-content,
+.field-type-ding-item-list-field .ding-item-list-title {
   background-color: #1f3245; /* Dark blue color */
 }
 
