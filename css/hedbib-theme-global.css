@@ -66,6 +66,7 @@ h2 {
   text-shadow: none;
 }
 
+.pane-category-menu-fold .more-link a,
 .page-user .user-page-tabs ul.primary > li.active a + ul a,
 .block-system-user-menu ul li a:link,
 .block-system-user-menu ul li a:hover,
@@ -153,6 +154,7 @@ a:hover,
 }
 
 /* BG colors */
+.pane-category-menu-fold .item-list > ul > li > a,
 .page-user .user-page-tabs ul.primary > li > a,
 .zone-menu-wrapper,
 .block-main-menu > div > .content,
@@ -223,6 +225,7 @@ a:hover,
   background-color: #fff;
 }
 
+.pane-category-menu-fold .item-list > ul > li > a.active,
 .page-user .user-page-tabs ul.primary > li.active > a,
 .block-search-form,
 .block-search-form form .extendsearch-advanced .fieldset-wrapper,
