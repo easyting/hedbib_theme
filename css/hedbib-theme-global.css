@@ -66,6 +66,8 @@ h2 {
   text-shadow: none;
 }
 
+.pane-category-menu-fold .more-link a,
+.page-user .user-page-tabs ul.primary > li.active a + ul a,
 .block-system-user-menu ul li a:link,
 .block-system-user-menu ul li a:hover,
 .block-system-user-menu ul li a:visited,
@@ -152,6 +154,9 @@ a:hover,
 }
 
 /* BG colors */
+.pane-category-menu-fold .item-list > ul > li > a,
+.pane-ding-item-list-recommendations .pane-title,
+.page-user .user-page-tabs ul.primary > li > a,
 .zone-menu-wrapper,
 .block-main-menu > div > .content,
 .block-ding-library-library-address,
@@ -199,7 +204,9 @@ a:hover,
 .responsive-layout-mobile .block-main-menu > div > .content > ul,
 .responsive-layout-mobile .sidebar-menu-expand,
 .responsive-layout-mobile .search-results-tabs ul.primary li a,
-.responsive-layout-mobile .search-results-tabs ul.primary li a:hover {
+.responsive-layout-mobile .search-results-tabs ul.primary li a:hover,
+.node-type-ding-event .event-short-info .views-field-group-audience .field-content,
+.field-type-ding-item-list-field .ding-item-list-title {
   background-color: #1f3245; /* Dark blue color */
 }
 
@@ -219,6 +226,8 @@ a:hover,
   background-color: #fff;
 }
 
+.pane-category-menu-fold .item-list > ul > li > a.active,
+.page-user .user-page-tabs ul.primary > li.active > a,
 .block-search-form,
 .block-search-form form .extendsearch-advanced .fieldset-wrapper,
 .ui-tabs-nav li.active,
@@ -279,6 +288,9 @@ a:hover,
 .block-user-login input[type="text"],
 .block-user-login input[type="password"],
 .block-search-form form .extendsearch-advanced input[type="text"],
+.block-search-form form .extendsearch-advanced .form-item select,
+.block-search-form form .extendsearch-advanced .form-item select:focus,
+.block-search-form form .extendsearch-advanced .form-item select:active,
 .block-search-form form .extendsearch-advanced .form-item input:active,
 .block-search-form form .extendsearch-advanced .form-item input:focus,
 .block-main-menu .content ul li ul,
@@ -325,6 +337,8 @@ footer .region {
 .block-search-form form .ui-autocomplete-input:focus,
 .block-search-form form .extendsearch-advanced .form-item input:active,
 .block-search-form form .extendsearch-advanced .form-item input:focus,
+.block-search-form form .extendsearch-advanced .form-item select:active,
+.block-search-form form .extendsearch-advanced .form-item select:focus,
 .block-search-form form input[name="search_block_form"]:focus,
 .block-search-form form input[name="search_block_form"]:active,
 .ui-widget input:focus {
