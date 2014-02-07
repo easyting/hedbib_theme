@@ -1,0 +1,263 @@
+/* Spinner. */
+.spinner {
+  width: 16px;
+  height: 16px;
+  background: url(../img/spinner.gif);
+}
+
+/* Close button. */
+.close-button-release {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 30px;
+  height: 30px;
+  background: url(../img/closebox.png);
+  cursor: pointer;
+}
+
+.close-button-onpress {
+  position: absolute;
+  top: -7px;
+  right: -6px;
+  width: 22px;
+  height: 22px;
+  background: url(../img/closebox.gif);
+  cursor: pointer;
+}
+
+/* Grid */
+.column1 {
+  margin-right: 1%;
+  margin-left: 1%;
+  width: 27%;
+}
+
+.column2 {
+  margin-right: 1%;
+  margin-left: 1%;
+  width: 56%;
+}
+
+.row1 {
+  height: 15.6%;
+}
+
+.row2 {
+  height: 32.3%;
+}
+
+.row3 {
+  height: 49%;
+}
+
+.row4 {
+  height: 65.6%;
+}
+
+.row5 {
+  height: 82.3%;
+}
+
+.row6 {
+  height: 99%;
+}
+
+.section-container {
+  float: left;
+  overflow: hidden;
+  margin: 0.5%;
+}
+
+.section-container.row1 {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.section-container.column3 {
+  float: none;
+  clear: both;
+}
+
+.row4.column3 {
+  margin-right: 7%;
+  margin-left: 7%;
+}
+
+.column3 + .column1 {
+  margin-left: 7%;
+}
+
+.section-container.row4 > div {
+  position: relative;
+  padding: 0;
+  width: auto;
+}
+
+/* Theme main styles */
+.sliders-div {
+  background: url('../img/screen-bg.jpg') repeat-x 0 0;
+  background-size: 100% auto;
+  color: #252525;
+  font-size: 22px;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+body,
+#SlidersDiv,
+.section-container .carousel-ct-bodycontent .teaser {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  font-size: 22px;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+#SlidersDiv .section-container .title {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+.sliders-div > .section-container:first-child {
+  margin-top: 0;
+  height: 130px;
+}
+
+.sliders-div:before {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  z-index: 9;
+  display: block;
+  width: 100%;
+  height: 10px;
+  background: url('../img/slider-bottom-bg.png') repeat-x 0 0;
+  content: "-";
+  text-indent: -9000px;
+}
+
+/* Header styles */
+.header-ct-container {
+  margin: 0 0 0 340px;
+  padding: 1px 0;
+  background: url('../img/header-bg.png') repeat-x 0 1px;
+}
+
+#Header {
+  position: relative;
+  /*
+  This is an example how to define a logo
+  background: url('../img/logo.png') no-repeat 85px center;
+  */
+  height: 130px;
+}
+
+#Header .text {
+  display: block;
+  margin: 0 0 0 -340px;
+  padding-top: 0;
+  width: 450px;
+  height: 130px;
+  background: url('../img/logo.png') no-repeat 0 0;
+  color: #fff;
+  text-indent: -9000px;
+  line-height: 70px;
+}
+
+/* Search button */
+.search {
+  position: absolute;
+  top: 51px;
+  right: 0;
+  display: block;
+  float: right;
+  margin-top: -35px;
+  width: 113px;
+  height: 85px;
+  background: transparent url('../img/search-icon.png') no-repeat center;
+}
+
+/* Footer */
+.footer-ct-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  padding-top: 10px;
+  width: 100%;
+  height: 80px;
+  background: url('../img/footer-bg.png') repeat-x 0 bottom;
+}
+
+#Footer {
+  margin-top: 10px;
+  padding-left: 160px;
+  height: 60px;
+  background: url('../img/clocks-icon.png') no-repeat 85px center;
+  color: #fff;
+  font-size: 30px;
+  line-height: 60px;
+}
+
+#Footer #countdown-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  border: 1px solid #e2e7ec;
+  background: #637179;
+}
+
+/* Countdown */
+.count-down-bar {
+  position: absolute;
+  bottom: 81px;
+  left: 0;
+  z-index: 10;
+  overflow: hidden;
+  width: 100%;
+  height: 6px;
+  border-top: 1px solid #494e4a;
+  border-right: 1px solid #595e58;
+  border-bottom: 1px solid #5b5d5a;
+  border-left: 0;
+  background: url('../img/slider-bg.png') repeat-x 0 0;
+  text-indent: -1000em;
+}
+
+.column3.row1 div.rss-ct-container,
+.footer {
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+  height: 89px;
+  background: #6bafdb;
+}
+
+/* Horizontal ticker */
+.horizontal-ticker {
+  padding-top: 20px;
+  padding-right: 0;
+  padding-bottom: 10px;
+  padding-left: 160px;
+  background: url('../img/timer.png') no-repeat 57px 15px;
+  color: #fff;
+  font-size: 30px;
+}
+
+#SlidersDiv .horizontal-ticker .title,
+#SlidersDiv .horizontalTicker .title {
+  font-size: 30px;
+}
+
+.section-container.row4 {
+  border: none;
+  background-color: #fff !important;
+  -webkit-box-shadow: 0 2px 8px 0 #c7c4b7;
+  -moz-box-shadow: 0 2px 8px 0 #c7c4b7;
+  box-shadow: 0 2px 5px 0 #c7c4b7;
+}
