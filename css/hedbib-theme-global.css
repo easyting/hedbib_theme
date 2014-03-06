@@ -154,6 +154,9 @@ a:hover,
 }
 
 /* BG colors */
+.views-field-field-address .street-block,
+.views-field-field-address .addressfield-container-inline,
+.views-field-field-address .country,
 .pane-category-menu-fold .item-list > ul > li > a,
 .pane-ding-item-list-recommendations .pane-title,
 .page-user .user-page-tabs ul.primary > li > a,
