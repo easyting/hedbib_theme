@@ -1,7 +1,13 @@
+<?php
+/**
+ * @file
+ * Newsletter footer.
+ */
+?>
 <table style="border-collapse: collapse" width="570" border="0" cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
-      <td height="15"><br></td>
+      <td height="15"><br /></td>
     </tr>
     <tr>
       <td>
@@ -9,7 +15,7 @@
       </td>
     </tr>
     <tr>
-      <td height="30"><br></td>
+      <td height="30"><br /></td>
     </tr>
   </tbody>
 </table>
