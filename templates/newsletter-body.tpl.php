@@ -73,7 +73,7 @@
     </tr>
     <tr>
       <td style="border-collapse: collapse;">
-        <img src="<?php echo $image_path; ?>/images/emailkanon/shadow-full.gif" alt="shadow-full" style="outline: none; text-decoration: none; display: block;" height="16" width="600">
+        <img src="<?php echo $image_path; ?>/img/emailkanon/shadow-full.gif" alt="shadow-full" style="outline: none; text-decoration: none; display: block;" height="16" width="600">
       </td>
     </tr>
   </tbody>
@@ -171,7 +171,7 @@
       </td>
     </tr>
     <tr>
-      <td style="border-collapse:collapse"><img src="<?php echo $image_path; ?>/images/emailkanon/shadow-full.gif" alt="shadow-full" style="outline:none;text-decoration:none;display:block" height="16" width="600"></td>
+      <td style="border-collapse:collapse"><img src="<?php echo $image_path; ?>/img/emailkanon/shadow-full.gif" alt="shadow-full" style="outline:none;text-decoration:none;display:block" height="16" width="600"></td>
     </tr>
   </tbody>
 </table>
@@ -298,7 +298,7 @@
     </tr>
     <tr>
       <td style="border-collapse:collapse">
-        <img src="<?php echo $image_path; ?>/images/emailkanon/shadow-full.gif" alt="shadow-full" style="outline:none;text-decoration:none;display:block" height="16" width="600">
+        <img src="<?php echo $image_path; ?>/img/emailkanon/shadow-full.gif" alt="shadow-full" style="outline:none;text-decoration:none;display:block" height="16" width="600">
       </td>
     </tr>
   </tbody>
@@ -346,7 +346,7 @@
     </tr>
     <tr>
       <td style="border-collapse: collapse;">
-        <img src="<?php echo $image_path; ?>/images/emailkanon/shadow-full.gif" alt="shadow-full" style="outline: none; text-decoration: none; display: block;" height="16" width="600">
+        <img src="<?php echo $image_path; ?>/img/emailkanon/shadow-full.gif" alt="shadow-full" style="outline: none; text-decoration: none; display: block;" height="16" width="600">
       </td>
     </tr>
   </tbody>

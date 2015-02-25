@@ -1,7 +1,7 @@
 <?php
   $image_path = url(drupal_get_path('theme', $GLOBALS['theme']), array('absolute' => TRUE, 'language' => FALSE));
 ?>
-<table style="border-collapse: collapse; background-color: #8cc63f;" bgcolor ="#8cc63f" width="630" border="0" cellpadding="0" cellspacing="0">
+<table style="border-collapse: collapse; background-color: #8cc63f;" bgcolor ="#8cc63f" width="600" border="0" cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
       <td colspan="3" style="border-collapse: collapse;" height="15">
@@ -11,7 +11,7 @@
     <tr>
       <td style="border-collapse: collapse;" width="15"><br></td>
       <td style="border-collapse: collapse;" width="600" valign="middle" width="355">
-        <img src="<?php echo $image_path; ?>/images/emailkanon/logo.png" alt="<?php echo variable_get('site_name', ''); ?>">
+        <img src="<?php echo $image_path; ?>/img/emailkanon/logo.png" alt="<?php echo variable_get('site_name', ''); ?>">
       </td>
       <td style="border-collapse: collapse;" valign="middle">
 
