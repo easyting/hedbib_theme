@@ -110,7 +110,7 @@
                               <?php if ($type == 'ding_news') { ?>
                                 <tr>
                                   <td style="border-collapse: collapse;" height="20" width="30"><br></td>
-                                  <td style="border-collapse: collapse;" height="20" width="540">
+                                  <td style="border-collapse: collapse;" height="20" width="540" align="left">
                                     <table style="border-collapse: collapse;" border="0" cellpadding="0" cellspacing="0">
                                       <tbody>
                                         <tr>
@@ -121,8 +121,8 @@
                                               </a>
                                             <?php } ?>
                                           </td>
-                                          <td valign="top" width="20" height="20"><br></td>
-                                          <td valign="top">
+                                          <td valign="top" width="20" height="20" align="left"><br></td>
+                                          <td valign="top" align="left">
                                             <div style="font-size: 14px; line-height: 21px; font-family: Helvetica, Arial, sans-serif; color: #231717;">
                                                 <?php echo $newsletter_node->date; ?>
                                             </div>
@@ -210,11 +210,11 @@
                             <?php if ($type == 'ding_event') { ?>
                               <tr>
                                 <td style="border-collapse: collapse;" height="20" width="30"><br></td>
-                                <td style="border-collapse: collapse;" height="20" width="540">
+                                <td style="border-collapse: collapse;" height="20" width="540"  align="left">
                                   <table style="border-collapse: collapse;" border="0" cellpadding="0" cellspacing="0">
                                     <tbody>
                                       <tr>
-                                        <td style="border-collapse: collapse;" width="60" valign="top">
+                                        <td style="border-collapse: collapse;" width="60" valign="top" align="left">
                                           <table style="border-collapse: collapse;" width="70" border="0" cellpadding="0" cellspacing="0">
                                             <tbody>
                                               <tr>
@@ -248,7 +248,7 @@
                                           </table>
                                         </td>
                                         <td valign="top" width="10" height="20"><br></td>
-                                        <td valign="top">
+                                        <td valign="top" align="left">
                                           <?php if (!empty($newsletter_node->category)) { ?>
                                             <span style="background-color: #1f3245; color: #ffffff; font-size: 11px; text-transform: uppercase; padding: 0 4px; text-decoration: none; font-family: Helvetica, Arial, sans-serif;">
                                               <a href="<?php echo $newsletter_node->category_url; ?>" style="color: #ffffff; text-decoration: none;"><?php echo $newsletter_node->category ?></a>
